@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "tag": {
+            "required": true,
+            "type": "string"
+        },
+        "period": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "all_time",
+                "month"
+            ]
+        },
+        "pagesize": {
+            "type": "integer"
+        },
+        "page": {
+            "type": "integer"
+        },
+        "filter": {
+            "type": "string"
+        },
+        "callback": {
+            "type": "string"
+        },
+        "site": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

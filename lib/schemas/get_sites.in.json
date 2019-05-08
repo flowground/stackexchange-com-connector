@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "pagesize": {
+            "type": "integer"
+        },
+        "page": {
+            "type": "integer"
+        },
+        "filter": {
+            "type": "string"
+        },
+        "callback": {
+            "type": "string"
+        }
+    }
+}

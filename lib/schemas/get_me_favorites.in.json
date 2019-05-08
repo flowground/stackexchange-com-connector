@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "order": {
+            "type": "string",
+            "enum": [
+                "desc",
+                "asc"
+            ]
+        },
+        "max": {
+            "type": "string"
+        },
+        "min": {
+            "type": "string"
+        },
+        "sort": {
+            "type": "string",
+            "enum": [
+                "activity",
+                "creation",
+                "votes",
+                "added"
+            ]
+        },
+        "fromdate": {
+            "type": "integer"
+        },
+        "todate": {
+            "type": "integer"
+        },
+        "pagesize": {
+            "type": "integer"
+        },
+        "page": {
+            "type": "integer"
+        },
+        "filter": {
+            "type": "string"
+        },
+        "callback": {
+            "type": "string"
+        },
+        "site": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

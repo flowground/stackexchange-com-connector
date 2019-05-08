@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "integer"
+        },
+        "filter": {
+            "type": "string"
+        },
+        "callback": {
+            "type": "string"
+        },
+        "site": {
+            "required": true,
+            "type": "string"
+        },
+        "body": {
+            "type": "string"
+        },
+        "preview": {
+            "type": "boolean"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "ids": {
+            "required": true,
+            "type": "string"
+        },
+        "pagesize": {
+            "type": "integer"
+        },
+        "page": {
+            "type": "integer"
+        },
+        "filter": {
+            "type": "string"
+        },
+        "callback": {
+            "type": "string"
+        }
+    }
+}

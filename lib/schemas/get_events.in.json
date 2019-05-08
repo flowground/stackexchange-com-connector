@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "pagesize": {
+            "type": "integer"
+        },
+        "page": {
+            "type": "integer"
+        },
+        "filter": {
+            "type": "string"
+        },
+        "callback": {
+            "type": "string"
+        },
+        "site": {
+            "required": true,
+            "type": "string"
+        },
+        "since": {
+            "type": "integer"
+        }
+    }
+}

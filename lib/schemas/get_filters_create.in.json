@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "base": {
+            "type": "string"
+        },
+        "exclude": {
+            "type": "string"
+        },
+        "include": {
+            "type": "string"
+        },
+        "unsafe": {
+            "type": "boolean"
+        }
+    }
+}

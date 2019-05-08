@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "filter": {
+            "type": "string"
+        },
+        "callback": {
+            "type": "string"
+        },
+        "site": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

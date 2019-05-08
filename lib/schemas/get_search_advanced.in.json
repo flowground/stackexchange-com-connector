@@ -1,0 +1,111 @@
+{
+    "type": "object",
+    "properties": {
+        "tagged": {
+            "type": "string"
+        },
+        "order": {
+            "type": "string",
+            "enum": [
+                "desc",
+                "asc"
+            ]
+        },
+        "max": {
+            "type": "string"
+        },
+        "min": {
+            "type": "string"
+        },
+        "sort": {
+            "type": "string",
+            "enum": [
+                "activity",
+                "creation",
+                "votes",
+                "relevance"
+            ]
+        },
+        "fromdate": {
+            "type": "integer"
+        },
+        "todate": {
+            "type": "integer"
+        },
+        "pagesize": {
+            "type": "integer"
+        },
+        "page": {
+            "type": "integer"
+        },
+        "filter": {
+            "type": "string"
+        },
+        "callback": {
+            "type": "string"
+        },
+        "site": {
+            "required": true,
+            "type": "string"
+        },
+        "accepted": {
+            "type": "string",
+            "enum": [
+                true,
+                false
+            ]
+        },
+        "answers": {
+            "type": "integer"
+        },
+        "body": {
+            "type": "string"
+        },
+        "closed": {
+            "type": "string",
+            "enum": [
+                true,
+                false
+            ]
+        },
+        "migrated": {
+            "type": "string",
+            "enum": [
+                true,
+                false
+            ]
+        },
+        "notice": {
+            "type": "string",
+            "enum": [
+                true,
+                false
+            ]
+        },
+        "nottagged": {
+            "type": "string"
+        },
+        "q": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        },
+        "user": {
+            "type": "integer"
+        },
+        "views": {
+            "type": "integer"
+        },
+        "wiki": {
+            "type": "string",
+            "enum": [
+                true,
+                false
+            ]
+        }
+    }
+}
